@@ -1,3 +1,3 @@
 # Learning-C
 
-This is just some exercises in C.
+Exercícios de introdução em C.
