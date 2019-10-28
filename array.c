@@ -17,7 +17,7 @@ int main(void)
         scanf("%d", &grades[i]); // Read a grade.
         sum += grades[i]; // Add it to sum
 
-        average = (float)sum/count // Average
+        average = (float)sum/count; // Average
         printf("\nAverage of the ten grades entered is: %.2f\n", average);
     }
 
