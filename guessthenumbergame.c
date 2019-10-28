@@ -27,7 +27,7 @@ int main(void)
         if(guess == randomNumber)
         {
             printf("\nCongratulations!!! You made it!\n");
-            break;
+            return;
         }
         else if(guess < 0 || guess > 20) // Checking for a invalid guess.
         {
