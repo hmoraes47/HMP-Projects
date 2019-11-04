@@ -3,7 +3,7 @@
 
 int arraySum(int array[], const int n)
 {
-        int sum = 0; *ptr;
+        int sum = 0, *ptr;
         int *const arrayEnd = array + n;
 
         for (ptr = array; ptr < arrayEnd; ++ptr)
